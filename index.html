@@ -14,7 +14,8 @@ async function updateCounts() {
     console.error("Failed to fetch counts:", err);
   }
 }
-
+	
+updateCounts();
 setInterval(updateCounts, 300_000);
 </script>
 
