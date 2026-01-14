@@ -9,7 +9,7 @@ async function updateCounts() {
 
     document.getElementById("bot-servers").textContent = "Trusted by more than " + data.servers + " servers";
     document.getElementById("users-bot").textContent = "Currently watching over " + data.users + " members";
-	document.getElementById("servers-bot").textConent = "Currently watching over " + data.servers + " servers";
+	document.getElementById("servers-bot").textContent = "Currently watching over " + data.servers + " servers";
   } catch (err) {
     console.error("Failed to fetch counts:", err);
   }
